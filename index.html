@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
+    <!-- This is the link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 </head>
-    <header>Welcome to the Page</header>
-
 <body>
-    
+    <header class="header"><h1><strong>Welcome to the Page</strong></h1>
+        <div>
+        <ul>
+            <li class="Contact"><a href="#Contact-Info">Contact Information</a></li>
+            <li class="About"><a href="#About">About</a></li>
+            <li class="Information"><a href="#Information">General Information</a></li>
+        </div>
+    </header>
+
+    <!-- Images -->
+    <section>
+        <img src="https://cdn.pixabay.com/photo/2016/12/19/10/16/hands-1917895_960_720.png" alt="Coming together as one">
+        <img src="https://cdn.pixabay.com/photo/2016/08/31/09/06/silhouette-1632912_960_720.jpg" alt="Knowledge knows no race">
+        <img src="https://cdn.pixabay.com/photo/2018/03/25/10/02/never-stop-learning-3258944_960_720.jpg" alt="Never stop learning">
+<hr>
+    </section>
+
+    <!-- Forms -->
+    <section>
+        <h2>Please Enter Your Contact Information Below for Additional Support</h2><br>
+
+        <form action="/action_page.php">
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" id="lname"><br>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email"><br>
+            <input type="submit" name="Submit" id="Submit"><br>
+            
+        </form>
+    </section>
+    <footer class="footer">Thank You for visiting my Site!</footer>
 </body>
 </html>

@@ -1,3 +1,56 @@
 * {
-    background-color: aquamarine;
+   
+    font-family: 'Edu VIC WA NT Beginner', cursive; 
+    
+}
+.header {
+    text-align: center;
+    font-size: 50px;
+    border: 10px solid rgb(197, 164, 121);
+    background-color: coral;
+    margin: auto;
+    
+
+   
+}
+.contact-info {
+    border: 10px solid burlywood;
+    position: left 700px;
+    top: 150px;
+    color: firebrick;
+
+}
+img {
+    width: 500px; height: 500px;
+    margin: 2%;
+    left: 600px;
+    display: inline;
+    border: 5px solid coral;
+}
+.Contact   {
+    left: 850px;
+    display: inline;
+    border-left: 5px solid rgb(197, 164, 121);
+    border-right: 5px solid rgb(197, 164, 121);
+    font-size: 20px;
+
+}
+.About {
+    display: inline;
+    border-left: 5px solid rgb(197, 164, 121);
+    border-right: 5px solid rgb(197, 164, 121);
+    font-size: 20px;
+
+}
+.Information {
+    display: inline; 
+    border-left: 5px solid rgb(197, 164, 121);
+    border-right: 5px solid rgb(197, 164, 121);
+    font-size: 20px;
+}
+.footer {
+    display: fixed;
+}
+.fname {
+    color: blueviolet;
 }
